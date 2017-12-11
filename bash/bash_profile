@@ -1,0 +1,6 @@
+if [ -d "${HOME}/dotfiles/bash/config" ] ; then
+    for f in "${HOME}"/dotfiles/bash/config/*.bash ; do
+        . "$f" && echo load "$f"
+    done
+    unset f
+fi
