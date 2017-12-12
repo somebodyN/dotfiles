@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :Denite	denite.txt	/*:Denite*
 :DeniteBufferDir	denite.txt	/*:DeniteBufferDir*
 :DeniteCursorWord	denite.txt	/*:DeniteCursorWord*
@@ -11,6 +12,9 @@ b:deoplete_omni_input_patterns	deoplete.txt	/*b:deoplete_omni_input_patterns*
 b:deoplete_omni_patterns	deoplete.txt	/*b:deoplete_omni_patterns*
 b:deoplete_skip_chars	deoplete.txt	/*b:deoplete_skip_chars*
 b:deoplete_sources	deoplete.txt	/*b:deoplete_sources*
+=======
+:Pyimport	jedi-vim.txt	/*:Pyimport*
+>>>>>>> origin/master
 dein	dein.txt	/*dein*
 dein#add()	dein.txt	/*dein#add()*
 dein#begin()	dein.txt	/*dein#begin()*
@@ -100,6 +104,7 @@ dein-unite-sources	dein.txt	/*dein-unite-sources*
 dein-usage	dein.txt	/*dein-usage*
 dein-variables	dein.txt	/*dein-variables*
 dein.txt	dein.txt	/*dein.txt*
+<<<<<<< HEAD
 denite	denite.txt	/*denite*
 denite#custom#action()	denite.txt	/*denite#custom#action()*
 denite#custom#alias()	denite.txt	/*denite#custom#alias()*
@@ -432,6 +437,8 @@ deoplete-source-tag	deoplete.txt	/*deoplete-source-tag*
 deoplete-sources	deoplete.txt	/*deoplete-sources*
 deoplete-variables	deoplete.txt	/*deoplete-variables*
 deoplete.txt	deoplete.txt	/*deoplete.txt*
+=======
+>>>>>>> origin/master
 g:dein#cache_directory	dein.txt	/*g:dein#cache_directory*
 g:dein#download_command	dein.txt	/*g:dein#download_command*
 g:dein#enable_name_conversion	dein.txt	/*g:dein#enable_name_conversion*
@@ -449,6 +456,7 @@ g:dein#types#git#clone_depth	dein.txt	/*g:dein#types#git#clone_depth*
 g:dein#types#git#command_path	dein.txt	/*g:dein#types#git#command_path*
 g:dein#types#git#default_protocol	dein.txt	/*g:dein#types#git#default_protocol*
 g:dein#types#git#pull_command	dein.txt	/*g:dein#types#git#pull_command*
+<<<<<<< HEAD
 g:deoplete#auto_complete_delay	deoplete.txt	/*g:deoplete#auto_complete_delay*
 g:deoplete#auto_complete_start_length	deoplete.txt	/*g:deoplete#auto_complete_start_length*
 g:deoplete#auto_refresh_delay	deoplete.txt	/*g:deoplete#auto_refresh_delay*
@@ -477,3 +485,42 @@ g:deoplete#omni_patterns	deoplete.txt	/*g:deoplete#omni_patterns*
 g:deoplete#skip_chars	deoplete.txt	/*g:deoplete#skip_chars*
 g:deoplete#sources	deoplete.txt	/*g:deoplete#sources*
 g:deoplete#tag#cache_limit_size	deoplete.txt	/*g:deoplete#tag#cache_limit_size*
+=======
+g:jedi#auto_close_doc	jedi-vim.txt	/*g:jedi#auto_close_doc*
+g:jedi#auto_initialization	jedi-vim.txt	/*g:jedi#auto_initialization*
+g:jedi#auto_vim_configuration	jedi-vim.txt	/*g:jedi#auto_vim_configuration*
+g:jedi#completions_command	jedi-vim.txt	/*g:jedi#completions_command*
+g:jedi#completions_enabled	jedi-vim.txt	/*g:jedi#completions_enabled*
+g:jedi#documentation_command	jedi-vim.txt	/*g:jedi#documentation_command*
+g:jedi#force_py_version	jedi-vim.txt	/*g:jedi#force_py_version*
+g:jedi#goto_assignments_command	jedi-vim.txt	/*g:jedi#goto_assignments_command*
+g:jedi#goto_command	jedi-vim.txt	/*g:jedi#goto_command*
+g:jedi#goto_definitions_command	jedi-vim.txt	/*g:jedi#goto_definitions_command*
+g:jedi#popup_on_dot	jedi-vim.txt	/*g:jedi#popup_on_dot*
+g:jedi#popup_select_first	jedi-vim.txt	/*g:jedi#popup_select_first*
+g:jedi#rename_command	jedi-vim.txt	/*g:jedi#rename_command*
+g:jedi#show_call_signatures	jedi-vim.txt	/*g:jedi#show_call_signatures*
+g:jedi#show_call_signatures_delay	jedi-vim.txt	/*g:jedi#show_call_signatures_delay*
+g:jedi#smart_auto_mappings	jedi-vim.txt	/*g:jedi#smart_auto_mappings*
+g:jedi#squelch_py_warning	jedi-vim.txt	/*g:jedi#squelch_py_warning*
+g:jedi#usages_command	jedi-vim.txt	/*g:jedi#usages_command*
+g:jedi#use_splits_not_buffers	jedi-vim.txt	/*g:jedi#use_splits_not_buffers*
+g:jedi#use_tabs_not_buffers	jedi-vim.txt	/*g:jedi#use_tabs_not_buffers*
+g:jedi#use_tag_stack	jedi-vim.txt	/*g:jedi#use_tag_stack*
+jedi-vim-configuration	jedi-vim.txt	/*jedi-vim-configuration*
+jedi-vim-contents	jedi-vim.txt	/*jedi-vim-contents*
+jedi-vim-contributing	jedi-vim.txt	/*jedi-vim-contributing*
+jedi-vim-installation	jedi-vim.txt	/*jedi-vim-installation*
+jedi-vim-installation-manually	jedi-vim.txt	/*jedi-vim-installation-manually*
+jedi-vim-installation-pathogen	jedi-vim.txt	/*jedi-vim-installation-pathogen*
+jedi-vim-installation-repos	jedi-vim.txt	/*jedi-vim-installation-repos*
+jedi-vim-installation-requirements	jedi-vim.txt	/*jedi-vim-installation-requirements*
+jedi-vim-installation-vundle	jedi-vim.txt	/*jedi-vim-installation-vundle*
+jedi-vim-introduction	jedi-vim.txt	/*jedi-vim-introduction*
+jedi-vim-keybindings	jedi-vim.txt	/*jedi-vim-keybindings*
+jedi-vim-license	jedi-vim.txt	/*jedi-vim-license*
+jedi-vim-support	jedi-vim.txt	/*jedi-vim-support*
+jedi-vim-testing	jedi-vim.txt	/*jedi-vim-testing*
+jedi-vim-usage	jedi-vim.txt	/*jedi-vim-usage*
+jedi-vim.txt	jedi-vim.txt	/*jedi-vim.txt*
+>>>>>>> origin/master

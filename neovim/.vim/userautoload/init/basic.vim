@@ -38,22 +38,3 @@ set smartindent
 
 " 折り返しをしない
 
-<<<<<<< HEAD
-source $VIMRUNTIME/macros/matchit.vim
-
-" クリップボードから貼り付ける場合、インデントしない
-if &term =~ "xterm"
-    let &t_SI .= "\e[?2004h"
-    let &t_EI .= "\e[?2004l"
-    let &pastetoggle = "\e[201~"
-
-    function XTermPasteBegin(ret)
-        set paste
-        return a:ret
-    endfunction
-
-    inoremap <special> <expr> <Esc>[200~ XTermPasteBegin("")
-endif
-
-=======
->>>>>>> origin/master
