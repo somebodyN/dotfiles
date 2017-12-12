@@ -1,6 +1,2 @@
 100
-<<<<<<< HEAD
-['Shougo/dein.vim', 'Shougo/denite.nvim', 'Shougo/deoplete.nvim']
-=======
-['Shougo/dein.vim', 'davidhalter/jedi-vim']
->>>>>>> origin/master
+['Lokaltog/vim-easymotion', 'Shougo/dein.vim', 'Shougo/denite.nvim', 'Shougo/deoplete.nvim', 'Shougo/neosnippet-snippets', 'Shougo/vimproc', 'zchee/deoplete-jedi']
