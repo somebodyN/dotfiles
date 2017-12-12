@@ -38,7 +38,6 @@ set smartindent
 
 " 折り返しをしない
 
-<<<<<<< HEAD
 source $VIMRUNTIME/macros/matchit.vim
 
 " クリップボードから貼り付ける場合、インデントしない
@@ -55,5 +54,3 @@ if &term =~ "xterm"
     inoremap <special> <expr> <Esc>[200~ XTermPasteBegin("")
 endif
 
-=======
->>>>>>> origin/master

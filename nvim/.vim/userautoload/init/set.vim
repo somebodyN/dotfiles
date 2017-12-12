@@ -31,11 +31,8 @@ set virtualedit=block
 set whichwrap=b,s,[,],<,>
 " バックスペースを空白、行末、行頭で使えるように
 set backspace=indent,eol,start
-<<<<<<< HEAD
 " 保存するコマンド履歴の総数
 set history=5000
-=======
->>>>>>> origin/master
 " 全角記号が崩れないようにする
 set ambiwidth=double
 " クリップボード共有
