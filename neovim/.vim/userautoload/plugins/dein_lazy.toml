@@ -1,5 +1,0 @@
-" dein_lazy.toml
-" ========================================================
-[[plugins]]
-repo = 'Shougo/deoplete.nvim'
-depends = 'context_filetype.vim'

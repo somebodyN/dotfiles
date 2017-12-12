@@ -1,6 +1,0 @@
-# dein_python.toml
-# ==========================================================
-
-[[plugins]]
-repo = 'davidhalter/jedi-vim'
-on_ft = ['python']
