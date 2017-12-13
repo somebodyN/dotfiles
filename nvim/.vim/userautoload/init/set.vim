@@ -80,10 +80,12 @@ set statusline+=%h
 set statusline+=%w
 " 以降のステータスを右寄せ
 set statusline+=%=
+" タグバーを表示させる(要Tagbarプラグイン)
+set statusline+=[%tagbar#currenttag("[%s]","")]
 " ファイルエンコーディング
 set statusline+=[ENC=%{&fileencoding}]
 " 行数を表示させる(現在/全体)
-set statusline+=[LOW=%l/%L]
+set statusline+=[%l/%L]
 " ステータスラインを常に表示させる
 set laststatus=2
 " ======================================================

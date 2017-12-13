@@ -28,3 +28,16 @@ hook_add = '''
     let g:EasyMotion_use_upper = 1
     let g:EasyMotion_enter_jump_first = 1
     '''
+
+[[plugins]]
+repo = 'majutsushi/tagbar'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+depends = ['tagbar', 'vim-airline']
+hook_add = '''
+    source ~/.config/nvim/plugins/airline.vim
+'''

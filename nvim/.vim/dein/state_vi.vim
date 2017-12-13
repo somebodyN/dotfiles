@@ -24,4 +24,5 @@ silent! command -complete=customlist,dein#autoload#_dummy_complete -bang -bar -r
     let g:EasyMotion_use_upper = 1
     let g:EasyMotion_enter_jump_first = 1
     
+    source ~/.config/nvim/plugins/airline.vim
 autocmd dein-events InsertEnter * call dein#autoload#_on_event("InsertEnter", ['deoplete.nvim'])
