@@ -1,5 +1,5 @@
 if g:dein#_cache_version != 100 | throw 'Cache loading error' | endif
-let [plugins, ftplugin] = dein#load_cache_raw(['/home/a/.config/nvim/init.vim', '/home/a/.config/nvim/.vim/userautoload/plugins/dein.toml', '/home/a/.config/nvim/.vim/userautoload/plugins/dein_python.toml'])
+let [plugins, ftplugin] = dein#load_cache_raw(['/home/a/.config/nvim/init.vim', '/home/a/.config/nvim/.vim/userautoload/plugins/dein_python.toml'])
 if empty(plugins) | throw 'Cache loading error' | endif
 let g:dein#_plugins = plugins
 let g:dein#_ftplugin = ftplugin
@@ -24,5 +24,5 @@ silent! command -complete=customlist,dein#autoload#_dummy_complete -bang -bar -r
     let g:EasyMotion_use_upper = 1
     let g:EasyMotion_enter_jump_first = 1
     
-    source ~/.config/nvim/plugins/airline.vim
+    source ~/.config/nvim/.vim/userautoload/plugins/airline.vim
 autocmd dein-events InsertEnter * call dein#autoload#_on_event("InsertEnter", ['deoplete.nvim'])

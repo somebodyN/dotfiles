@@ -39,5 +39,8 @@ repo = 'tpope/vim-fugitive'
 repo = 'vim-airline/vim-airline'
 depends = ['tagbar', 'vim-airline']
 hook_add = '''
-    source ~/.config/nvim/plugins/airline.vim
+    source ~/.config/nvim/.vim/userautoload/plugins/airline.vim
 '''
+
+[[plugins]]
+

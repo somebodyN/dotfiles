@@ -1,2 +1,2 @@
 100
-['Lokaltog/vim-easymotion', 'Shougo/dein.vim', 'Shougo/denite.nvim', 'Shougo/deoplete.nvim', 'Shougo/neosnippet-snippets', 'Shougo/vimproc', 'majutsushi/tagbar', 'tpope/vim-fugitive', 'vim-airline/vim-airline', 'zchee/deoplete-jedi']
+['Lokaltog/vim-easymotion', 'Shougo/dein.vim', 'Shougo/denite.nvim', 'Shougo/deoplete.nvim', 'Shougo/neosnippet-snippets', 'Shougo/vimproc', 'majutsushi/tagbar', 'tpope/vim-fugitive', 'vim-airline/vim-airline', 'vim-airline/vim-airline-themes', 'zchee/deoplete-jedi']
