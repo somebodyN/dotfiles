@@ -1,12 +1,10 @@
-os:
-    - linux
-    - osx
-
-sudo: false
-
+language: ruby
+rvm:
+    - 2.0.0
 before_script:
-    - git clone https://github.com/thinca/vim-themis /tmp/vim-themis
-
+    - bundle install
+    - bundle show
 script:
-    - make
-    - /tmp/vim-themis/bin/themis
+    - rake ci
+install:
+    - git clone https://github.com/kana/vim-vspec.git

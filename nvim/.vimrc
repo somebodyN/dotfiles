@@ -1,9 +1,18 @@
 " init.vim
-" ===========================================================
-set runtimepath+=$HOME/.cache/dein/repos/github.com/Shougo/dein.vim
+" =================================================================================================
 
 
-" source file
+
+
+
+" viとの互換性処理
+if !&compatible
+    set nocompatible
+endif
+
+
+
+" load file
 " ===========================================================
 source $HOME/.config/nvim/.vim/userautoload/init/let.vim
 source $HOME/.config/nvim/.vim/userautoload/init/set.vim

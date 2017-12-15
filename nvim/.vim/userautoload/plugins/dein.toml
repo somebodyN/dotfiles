@@ -4,9 +4,6 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = 'Shougo/vimproc'
-
-[[plugins]]
 repo = 'Shougo/neosnippet-snippets'
 
 [[plugins]]
@@ -43,4 +40,5 @@ hook_add = '''
 '''
 
 [[plugins]]
-
+repo = 'Shougo/vimproc'
+build = 'make'

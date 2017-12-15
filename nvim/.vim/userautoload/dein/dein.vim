@@ -14,6 +14,10 @@ if &runtimepath !~# '/dein.vim'
     execute 'set runtimepath^=' . fnamemodify(s:dein_repo_dir, ':p')
 endif
 
+
+if has('nvim')
+    tnoremap <silent> <ESC> <C-\><C-n>
+endif
 " 
 if dein#load_state('$HOME/.cache/dein')
     call dein#begin('$HOME/.cache/dein')
