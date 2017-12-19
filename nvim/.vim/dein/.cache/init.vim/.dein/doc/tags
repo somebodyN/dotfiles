@@ -401,6 +401,7 @@ denite-map-move_to_middle	denite.txt	/*denite-map-move_to_middle*
 denite-map-move_to_next_line	denite.txt	/*denite-map-move_to_next_line*
 denite-map-move_to_previous_line	denite.txt	/*denite-map-move_to_previous_line*
 denite-map-move_to_top	denite.txt	/*denite-map-move_to_top*
+denite-map-move_up_path	denite.txt	/*denite-map-move_up_path*
 denite-map-paste_from_default_register	denite.txt	/*denite-map-paste_from_default_register*
 denite-map-paste_from_register	denite.txt	/*denite-map-paste_from_register*
 denite-map-print_messages	denite.txt	/*denite-map-print_messages*

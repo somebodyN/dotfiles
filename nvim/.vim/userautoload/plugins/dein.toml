@@ -1,5 +1,10 @@
 # dein.toml
 # =====================================================
+
+
+
+
+# dein.vim
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
@@ -13,9 +18,9 @@ hook_add = '''
     nmap ? <Plug>(easymotion-s2)
     xmap ? <Plug>(easymotion-s2)
     omap z <Plug>(easymotion-s2)
-    nmap S <Plug>(easymotion-sn)
-    xmap S <Plug>(easymotion-sn)
-    omap S <Plug>(easymotion-sn)
+    nmap <Space><Space> <Plug>(easymotion-sn)
+    xmap <Space><Space> <Plug>(easymotion-sn)
+    omap <Space><Space> <Plug>(easymotion-sn)
     let g:EasyMotion_smartcase = 1
     map <Space>j <Plug>(easymotion-j)
     map <Space>k <Plug>(easymotion-k)
@@ -34,10 +39,12 @@ repo = 'tpope/vim-fugitive'
 
 [[plugins]]
 repo = 'vim-airline/vim-airline'
-depends = ['tagbar', 'vim-airline']
+depends = ['tagbar', 'vim-airline', 'vim-airline-themes']
 hook_add = '''
     source ~/.config/nvim/.vim/userautoload/plugins/airline.vim
 '''
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
 
 [[plugins]]
 repo = 'Shougo/vimproc'
