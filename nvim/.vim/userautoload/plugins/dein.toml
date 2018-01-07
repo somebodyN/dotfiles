@@ -25,7 +25,7 @@ hook_add = '''
     map <Space>j <Plug>(easymotion-j)
     map <Space>k <Plug>(easymotion-k)
     let g:EasyMotion_startofline = 0
-    " let g:EasyMotion_Keys = 'QZASDFGHJKL;'
+    let g:EasyMotion_Keys = 'QZASDFGHJKL;'
     let g:EasyMotion_Keys = 'Q1Z2A3S4D5F6G7H8J9K/;'
     let g:EasyMotion_use_upper = 1
     let g:EasyMotion_enter_jump_first = 1
