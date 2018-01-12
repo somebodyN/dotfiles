@@ -780,13 +780,10 @@ S		<denite:change_line>
 X		<denite:quick_move>
 a		<denite:append>
 b		<denite:move_caret_to_one_word_left>
-c		<denite:change_word>
 cc		<denite:change_line>
 cw		<denite:change_word>
 d		<denite:do_action:delete>
-dd		<denite:delete_entire_text>
 e		<denite:do_action:edit>
-e		<denite:move_caret_to_end_of_word>
 gg		<denite:move_to_first_line>
 h		<denite:move_caret_to_left>
 i		<denite:enter_mode:insert>
@@ -962,21 +959,27 @@ denite#do_action({context}, {action-name}, {targets})
 		Runs an action {action-name} against {targets}.  This will
 		mainly be used in |denite#custom#action()|.
 
-denite#get_status_mode()			 *denite#get_status_mode()*
-		Returns the mode part of the status string.  It is useful to
+denite#get_status({name})				*denite#get_status()*
+		Returns the {name} part of the status string.  It is useful to
 		customize the statusline.
+
+		The available status names:
+		"mode": Current mode
+		"sources": Current sources and candidates number
+		"path": Specified |denite-options-path|
+		"linenr": Current line number
+
+denite#get_status_mode()			 *denite#get_status_mode()*
+		Please use |denite#get_status()| instead.
 
 denite#get_status_sources()			 *denite#get_status_sources()*
-		Returns the sources part of the status string.  It is useful to
-		customize the statusline.
+		Please use |denite#get_status()| instead.
 
 denite#get_status_path()			 *denite#get_status_path()*
-		Returns the path part of the status string.  It is useful to
-		customize the statusline.
+		Please use |denite#get_status()| instead.
 
 denite#get_status_linenr()			 *denite#get_status_linenr()*
-		Returns the line number part of the status string.  It is
-		useful to customize the statusline.
+		Please use |denite#get_status()| instead.
 
 							*denite#initialize()*
 denite#initialize()
@@ -1488,7 +1491,14 @@ line		Gather current buffer lines as candidates.
 		"args":      Search from the argument buffers
 		Note: If the direction is "all" or omitted, it searches from
 		the buffer top.
+		Note: If you use "buffers", 'hidden' option must be set to
+		gather the all buffers.  If 'hidden' is not set, not shown
+		buffers lines will be empty.
 
+		2. the line emptiness:
+		"empty":     Include empty lines
+		"noempty":   Do not include empty lines
+		Note: By default, empty lines are included.
 						*denite-source-menu*
 menu		Gather custom menus.
 
@@ -1744,6 +1754,10 @@ sorter_reverse
 sorter_sublime
 		Uses the scoring algorithm from this article and its implementation:
 		https://bit.ly/reverse-engineering-sublime-text-s-fuzzy-match
+
+						*denite-filter-sorter_word*
+sorter_word
+		Simple filter to sort candidates by ascii order of word
 
 				*denite-filter-converter_abbr_word*
 converter_abbr_word
@@ -2159,7 +2173,8 @@ If it is the same of g, your environment does not support <A-g>.
 Q: I want to narrow by path in grep source.
 
 A: >
-	call denite#custom#source('grep', 'filters', ['converter_abbr_word'])
+	call denite#custom#source('grep',
+	\ 'converters', ['converter_abbr_word'])
 
 ==============================================================================
 COMPATIBILITY						*denite-compatibility*

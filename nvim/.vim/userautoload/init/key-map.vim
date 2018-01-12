@@ -43,4 +43,4 @@ nmap s+ <C-w>+
 " ウィンドウの高さを減らす
 nmap s+ <C-w>-
 
-
+nmap <C-j> <Esc>

@@ -133,11 +133,13 @@ airline-contributions	airline.txt	/*airline-contributions*
 airline-csv	airline.txt	/*airline-csv*
 airline-ctrlp	airline.txt	/*airline-ctrlp*
 airline-ctrlspace	airline.txt	/*airline-ctrlspace*
+airline-cursormode	airline.txt	/*airline-cursormode*
 airline-customization	airline.txt	/*airline-customization*
 airline-default	airline.txt	/*airline-default*
 airline-eclim	airline.txt	/*airline-eclim*
 airline-extensions	airline.txt	/*airline-extensions*
 airline-features	airline.txt	/*airline-features*
+airline-fugitiveline	airline.txt	/*airline-fugitiveline*
 airline-funcrefs	airline.txt	/*airline-funcrefs*
 airline-hunks	airline.txt	/*airline-hunks*
 airline-intro	airline.txt	/*airline-intro*
@@ -160,7 +162,9 @@ airline-tabline	airline.txt	/*airline-tabline*
 airline-taboo	airline.txt	/*airline-taboo*
 airline-tagbar	airline.txt	/*airline-tagbar*
 airline-theme-base16	airline-themes.txt	/*airline-theme-base16*
+airline-theme-base16-oceanicnext	airline-themes.txt	/*airline-theme-base16-oceanicnext*
 airline-theme-base16-shell	airline-themes.txt	/*airline-theme-base16-shell*
+airline-theme-base16-tomorrow	airline-themes.txt	/*airline-theme-base16-tomorrow*
 airline-theme-contents	airline-themes.txt	/*airline-theme-contents*
 airline-theme-dark_minimal	airline-themes.txt	/*airline-theme-dark_minimal*
 airline-theme-deus	airline-themes.txt	/*airline-theme-deus*
@@ -292,6 +296,7 @@ denite#custom#option()	denite.txt	/*denite#custom#option()*
 denite#custom#source()	denite.txt	/*denite#custom#source()*
 denite#custom#var()	denite.txt	/*denite#custom#var()*
 denite#do_action()	denite.txt	/*denite#do_action()*
+denite#get_status()	denite.txt	/*denite#get_status()*
 denite#get_status_linenr()	denite.txt	/*denite#get_status_linenr()*
 denite#get_status_mode()	denite.txt	/*denite#get_status_mode()*
 denite#get_status_path()	denite.txt	/*denite#get_status_path()*
@@ -325,6 +330,7 @@ denite-filter-matcher_regexp	denite.txt	/*denite-filter-matcher_regexp*
 denite-filter-sorter_rank	denite.txt	/*denite-filter-sorter_rank*
 denite-filter-sorter_reverse	denite.txt	/*denite-filter-sorter_reverse*
 denite-filter-sorter_sublime	denite.txt	/*denite-filter-sorter_sublime*
+denite-filter-sorter_word	denite.txt	/*denite-filter-sorter_word*
 denite-filters	denite.txt	/*denite-filters*
 denite-functions	denite.txt	/*denite-functions*
 denite-install	denite.txt	/*denite-install*
@@ -727,7 +733,6 @@ g:EasyMotion_use_smartsign_us	easymotion.txt	/*g:EasyMotion_use_smartsign_us*
 g:EasyMotion_use_upper	easymotion.txt	/*g:EasyMotion_use_upper*
 g:EasyMotion_verbose	easymotion.txt	/*g:EasyMotion_verbose*
 g:airline_base16_improved_contrast	airline-themes.txt	/*g:airline_base16_improved_contrast*
-g:airline_base16_oceanicnext	airline-themes.txt	/*g:airline_base16_oceanicnext*
 g:airline_base16_solarized	airline-themes.txt	/*g:airline_base16_solarized*
 g:airline_solarized_dark_inactive_border	airline-themes.txt	/*g:airline_solarized_dark_inactive_border*
 g:airline_solarized_normal_green	airline-themes.txt	/*g:airline_solarized_normal_green*
